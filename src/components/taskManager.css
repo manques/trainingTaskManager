@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    outline: 0px ;
+    border: 0px;
+}
+*:focus, *:active{
+    outline: 0px ;
+    border: 0px ;
+}
+.title {
+    text-align: center;
+    color: red;
+}
+
+.inputContainer {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.input, .button {
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 50px;
+    /* outline: 0px;
+    border: 0px; */
+}
+.taskStyle {
+    background-color: lightslategray;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.button {
+    margin-top: 10px;
+}
+.button:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+}
